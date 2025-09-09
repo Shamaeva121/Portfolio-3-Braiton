@@ -1,0 +1,90 @@
+/* Стили для формы */
+.questions__form {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+.questions__form input[type="text"],
+.questions__form input[type="email"] {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.questions__form input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+.questions__form .error-message {
+    color: red;
+    font-size: 12px;
+    margin-top: -10px;
+}
+
+/* Стили для кнопки отправки */
+.questions__form button {
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.questions__form button:hover {
+    background-color: #0056b3;
+}
+
+/* Стили для модальных окон */
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1000;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.modal-content {
+    background-color: #fefefe;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+    max-width: 500px;
+    border-radius: 5px;
+}
+
+.close-modal {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close-modal:hover,
+.close-modal:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* Стили для заголовков в модальных окнах */
+.modal-content h2 {
+    margin: 0;
+}
+
+/* Стили для текста в модальных окнах */
+.modal-content p {
+    margin: 10px 0;
+}
