@@ -23,7 +23,7 @@
       "new": 10540,
       "old": 17300
     },
-    "image": "/images/item-2.png",
+    "image": "images/item-2.png",
     "availability": {
       "moscow": 0,
       "orenburg": 0,
